@@ -1,0 +1,165 @@
+/* image.css */
+
+.introSection {
+  margin-top: 20px;
+}
+
+.textCenter {
+  text-align: left;
+}
+@keyframes letterZoom {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.1); /* Slightly zooms in */
+    opacity: 1;
+  }
+}
+
+.display4 {
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #011dbe; /* Dark color */
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-block; /* Required for animation */
+  animation: letterZoom 2s ease-out; /* Apply the animation */
+  /* Optional: Add transition for smooth effect */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-style: oblique;
+}
+
+
+
+
+.lead {
+  font-size: medium; /* Sets the font size to a medium value */
+  font-weight: bold; /* Makes the text bold */
+  line-height: 1.3; /* Sets the line height for better readability */
+  color: rgb(31, 6, 133); 
+  font-style: italic;
+}
+
+.paragh {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  color: #111312;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.imgContainer {
+  margin-top: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;     
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+}
+
+.hireMeSection {
+  display: flex; /* Flex layout for alignment */
+  justify-content: center; /* Center the content horizontally */
+  margin: 2rem 0; /* Adds space above and below the section */
+}
+.educationSection {
+  margin-top: 20px; 
+}
+
+.educationSection h2 {
+  text-decoration: underline; /* Underline the heading */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: 700; /* Make the heading bold */
+  text-align: center; /* Center the heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.educationSection p {
+  font-weight: bold; /* Make the paragraphs bold */
+  font-style: italic; /* Make the paragraphs italic */
+  margin-bottom: 10px; /* Space below each paragraph */
+  text-align: center; /* Center-align the text */
+}
+
+
+.skillsSection {
+  margin-top: 20px;
+}
+
+.skillsSection h2{
+  
+    text-decoration: underline; /* Underline the heading */
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: 700; /* Make the heading bold */
+    text-align: center; /* Center the heading */
+    margin-bottom: 15px; /* Space below the heading */
+  }
+
+.skillsSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skillsSection li {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.skillsSection h5 {
+  margin-bottom: 15px;
+  font-size: 2.25rem;
+  color: #dbd256;
+  font-weight: 600;
+  text-align: center;
+}
+.frontend,
+.backend {
+  margin-bottom: 20px; /* Space between the columns */
+}
+
+.frontend h3,
+.backend h3 {
+  margin-bottom: 15px;
+  font-style: italic;
+  font-size: 2rem; /* Font size for the section heading */
+  font-weight: 600; /* Bold text for emphasis */
+  text-align: center; /* Center-align the headings */
+}
+
+.frontend ul,
+.backend ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.frontend li,
+.backend li {
+  margin-bottom: 5px; /* Space between list items */
+  font-size: 1.25rem; /* Font size for the list items */
+  color: #19181a; /* Text color for better readability */
+  font-style: italic;
+  font-weight: 600;
+}
+
+.frontend {
+  background-color: #b49494; /* Light background color for frontend section */
+  padding: 20px; /* Add padding inside the column */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.backend {
+  background-color: #dbd256; /* Slightly different background color for backend section */
+  padding: 20px; /* Add padding inside the column */
+  border-radius: 8px; /* Rounded corners */
+}

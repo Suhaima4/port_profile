@@ -1,0 +1,8 @@
+.image {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: translateY(-40px); /* Adjust the value as needed */
+  }
+  
