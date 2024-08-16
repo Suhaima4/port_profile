@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -17,8 +16,6 @@ SocialIcon.propTypes = {
   className: PropTypes.string,
 };
 
-SocialIcon.defaultProps = {
-  className: '',
-};
+
 
 export default SocialIcon;
